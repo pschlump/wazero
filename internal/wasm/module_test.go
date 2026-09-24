@@ -6,12 +6,12 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/u32"
-	"github.com/tetratelabs/wazero/internal/u64"
+	"github.com/pschlump/wazero/api"
+	"github.com/pschlump/wazero/experimental"
+	"github.com/pschlump/wazero/internal/leb128"
+	"github.com/pschlump/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/u32"
+	"github.com/pschlump/wazero/internal/u64"
 )
 
 func TestFunctionType_String(t *testing.T) {

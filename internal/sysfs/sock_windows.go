@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/tetratelabs/wazero/experimental/sys"
-	socketapi "github.com/tetratelabs/wazero/internal/sock"
+	"github.com/pschlump/wazero/experimental/sys"
+	socketapi "github.com/pschlump/wazero/internal/sock"
 )
 
 const (

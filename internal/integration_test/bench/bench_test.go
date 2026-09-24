@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
-	"github.com/tetratelabs/wazero/internal/platform"
+	"github.com/pschlump/wazero"
+	"github.com/pschlump/wazero/api"
+	"github.com/pschlump/wazero/imports/wasi_snapshot_preview1"
+	"github.com/pschlump/wazero/internal/platform"
 )
 
 type arbitrary struct{}

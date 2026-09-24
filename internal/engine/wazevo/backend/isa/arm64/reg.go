@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/pschlump/wazero/internal/engine/wazevo/backend/regalloc"
 )
 
 // Arm64-specific registers.

@@ -12,16 +12,16 @@ import (
 	"testing/iotest"
 	"unicode/utf16"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/api"
-	. "github.com/tetratelabs/wazero/experimental"
-	"github.com/tetratelabs/wazero/experimental/logging"
-	"github.com/tetratelabs/wazero/experimental/wazerotest"
-	. "github.com/tetratelabs/wazero/internal/assemblyscript"
-	"github.com/tetratelabs/wazero/internal/testing/proxy"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/u64"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/pschlump/wazero"
+	"github.com/pschlump/wazero/api"
+	. "github.com/pschlump/wazero/experimental"
+	"github.com/pschlump/wazero/experimental/logging"
+	"github.com/pschlump/wazero/experimental/wazerotest"
+	. "github.com/pschlump/wazero/internal/assemblyscript"
+	"github.com/pschlump/wazero/internal/testing/proxy"
+	"github.com/pschlump/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/u64"
+	"github.com/pschlump/wazero/sys"
 )
 
 type arbitrary struct{}

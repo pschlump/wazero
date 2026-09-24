@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"testing/fstest"
 
-	"github.com/tetratelabs/wazero"
-	"github.com/tetratelabs/wazero/experimental/sysfs"
+	"github.com/pschlump/wazero"
+	"github.com/pschlump/wazero/experimental/sysfs"
 )
 
 var moduleConfig wazero.ModuleConfig

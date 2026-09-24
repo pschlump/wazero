@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"syscall"
 
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/sys"
+	experimentalsys "github.com/pschlump/wazero/experimental/sys"
+	"github.com/pschlump/wazero/sys"
 )
 
 // dirNlinkIncludesDot is false because Windows does not return dot entries.

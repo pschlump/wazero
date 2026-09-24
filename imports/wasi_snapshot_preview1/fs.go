@@ -9,13 +9,13 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	socketapi "github.com/tetratelabs/wazero/internal/sock"
-	"github.com/tetratelabs/wazero/internal/sys"
-	"github.com/tetratelabs/wazero/internal/wasip1"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	sysapi "github.com/tetratelabs/wazero/sys"
+	"github.com/pschlump/wazero/api"
+	experimentalsys "github.com/pschlump/wazero/experimental/sys"
+	socketapi "github.com/pschlump/wazero/internal/sock"
+	"github.com/pschlump/wazero/internal/sys"
+	"github.com/pschlump/wazero/internal/wasip1"
+	"github.com/pschlump/wazero/internal/wasm"
+	sysapi "github.com/pschlump/wazero/sys"
 )
 
 // fdAdvise is the WASI function named FdAdviseName which provides file

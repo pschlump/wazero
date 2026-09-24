@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/fstest"
-	"github.com/tetratelabs/wazero/internal/platform"
-	internalsys "github.com/tetratelabs/wazero/internal/sys"
-	"github.com/tetratelabs/wazero/internal/testing/require"
-	"github.com/tetratelabs/wazero/internal/wasm"
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/pschlump/wazero/api"
+	"github.com/pschlump/wazero/internal/fstest"
+	"github.com/pschlump/wazero/internal/platform"
+	internalsys "github.com/pschlump/wazero/internal/sys"
+	"github.com/pschlump/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/wasm"
+	"github.com/pschlump/wazero/sys"
 )
 
 func TestRuntimeConfig(t *testing.T) {

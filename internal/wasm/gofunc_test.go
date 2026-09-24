@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/api"
+	"github.com/pschlump/wazero/internal/testing/require"
 )
 
 type arbitrary struct{}

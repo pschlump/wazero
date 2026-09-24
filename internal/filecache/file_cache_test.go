@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/testing/require"
 )
 
 func TestFileCache_Add(t *testing.T) {

@@ -1,9 +1,9 @@
 package amd64
 
 import (
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/wazevoapi"
+	"github.com/pschlump/wazero/internal/engine/wazevo/backend"
+	"github.com/pschlump/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/pschlump/wazero/internal/engine/wazevo/wazevoapi"
 )
 
 // PostRegAlloc implements backend.Machine.

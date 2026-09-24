@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/tetratelabs/wazero/api"
+	"github.com/pschlump/wazero/api"
 )
 
 type paramsKind byte

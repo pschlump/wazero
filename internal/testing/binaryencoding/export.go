@@ -1,8 +1,8 @@
 package binaryencoding
 
 import (
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/pschlump/wazero/internal/leb128"
+	"github.com/pschlump/wazero/internal/wasm"
 )
 
 // encodeExport returns the wasm.Export encoded in WebAssembly 1.0 (20191205) Binary Format.

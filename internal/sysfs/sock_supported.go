@@ -6,8 +6,8 @@ import (
 	"net"
 	"syscall"
 
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	socketapi "github.com/tetratelabs/wazero/internal/sock"
+	experimentalsys "github.com/pschlump/wazero/experimental/sys"
+	socketapi "github.com/pschlump/wazero/internal/sock"
 )
 
 // Accept implements the same method as documented on socketapi.TCPSock

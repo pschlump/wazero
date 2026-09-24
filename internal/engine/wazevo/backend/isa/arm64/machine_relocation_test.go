@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/engine/wazevo/backend"
+	"github.com/pschlump/wazero/internal/engine/wazevo/ssa"
+	"github.com/pschlump/wazero/internal/testing/require"
 )
 
 func Test_maxNumFunctions(t *testing.T) {

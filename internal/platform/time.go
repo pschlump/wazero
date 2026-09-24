@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tetratelabs/wazero/sys"
+	"github.com/pschlump/wazero/sys"
 )
 
 const (

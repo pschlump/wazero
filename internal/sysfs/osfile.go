@@ -5,8 +5,8 @@ import (
 	"io/fs"
 	"os"
 
-	experimentalsys "github.com/tetratelabs/wazero/experimental/sys"
-	"github.com/tetratelabs/wazero/sys"
+	experimentalsys "github.com/pschlump/wazero/experimental/sys"
+	"github.com/pschlump/wazero/sys"
 )
 
 func newOsFile(path string, flag experimentalsys.Oflag, perm fs.FileMode, f *os.File) experimentalsys.File {

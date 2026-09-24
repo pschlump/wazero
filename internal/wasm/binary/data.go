@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tetratelabs/wazero/api"
-	"github.com/tetratelabs/wazero/internal/leb128"
-	"github.com/tetratelabs/wazero/internal/wasm"
+	"github.com/pschlump/wazero/api"
+	"github.com/pschlump/wazero/internal/leb128"
+	"github.com/pschlump/wazero/internal/wasm"
 )
 
 // dataSegmentPrefix represents three types of data segments.

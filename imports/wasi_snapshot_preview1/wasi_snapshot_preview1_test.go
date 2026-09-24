@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tetratelabs/wazero"
+	"github.com/pschlump/wazero"
 )
 
 func TestMain(m *testing.M) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/backend/regalloc"
-	"github.com/tetratelabs/wazero/internal/engine/wazevo/ssa"
-	"github.com/tetratelabs/wazero/internal/testing/require"
+	"github.com/pschlump/wazero/internal/engine/wazevo/backend/regalloc"
+	"github.com/pschlump/wazero/internal/engine/wazevo/ssa"
+	"github.com/pschlump/wazero/internal/testing/require"
 )
 
 func TestCompiler_lowerBlockArguments(t *testing.T) {
